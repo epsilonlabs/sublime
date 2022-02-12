@@ -4,7 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>etl</string>
+		<string>egl</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?i)^\s*(for|if|loop)\b</string>
@@ -13,23 +13,26 @@
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
-	<string>ETL</string>
+	<string>EGL</string>
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>include</key>
-			<string>source.epsilon.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(rule|transform|to)\b</string>
-			<key>name</key>
-			<string>keyword.control.etl</string>
+			<key>begin</key>
+			<string>\[%</string>
+			<key>end</key>
+			<string>%\]</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.epsilon.eol</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.epsilon.etl</string>
+	<string>source.epsilon.egl</string>
 	<key>uuid</key>
-	<string>28DCE4DD-F5E1-4ED3-8847-64DA6B1F9165</string>
+	<string>28DCE4DD-F5E1-4ED3-8847-64DA6B1F9166</string>
 </dict>
 </plist>

@@ -30,96 +30,15 @@
 			<key>name</key>
 			<string>comment.line.double-slash.eol</string>
 		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.other.eol</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.other.eol</string>
-				</dict>
-			</dict>
-			<key>match</key>
-			<string>(?i)^\s*(create)(\s+or\s+replace)?\s+</string>
-			<key>name</key>
-			<string>meta.create.eol</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.other.eol</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.other.eol</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.type.eol</string>
-				</dict>
-			</dict>
-			<key>match</key>
-			<string>(?i)\b(package)(\s+body)?\s+(\S+)</string>
-			<key>name</key>
-			<string>meta.package.eol</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.other.eol</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.type.eol</string>
-				</dict>
-			</dict>
-			<key>match</key>
-			<string>(?i)\b(type)\s+"([^"]+)"</string>
-			<key>name</key>
-			<string>meta.type.eol</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.other.eol</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.eol</string>
-				</dict>
-			</dict>
-			<key>match</key>
-			<string>(?i)\s*(function|procedure)\s+([-a-z0-9_.]+)</string>
-			<key>name</key>
-			<string>meta.procedure.eol</string>
-		</dict>
-		<dict>
+		<!--dict>
 			<key>match</key>
 			<string>[!&lt;&gt;:]?=|&lt;&gt;|&lt;|&gt;|\+|(?&lt;!\.)\*|-|(?&lt;!^)/|@@|\|\|</string>
 			<key>name</key>
 			<string>keyword.operator.eol</string>
-		</dict>
+		</dict-->
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(true|false|null|found)\b</string>
+			<string>(?i)\b(true|false|self|loopCount|hasMore)\b</string>
 			<key>name</key>
 			<string>constant.language.eol</string>
 		</dict>
@@ -131,75 +50,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(if|elsif|else|end\s+if|loop|end\s+loop|for|foreach|array|case|end\s+case|continue|return|goto|alias)\b</string>
+			<string>(?i)\b(import|driver|alias|if|switch|case|default|operation|function|new|else|for|var|return|async|break|breakAll|and|or|not|xor|implies|ext|in|continue|while|throw|delete|transaction|abort|model|group|as)\b</string>
 			<key>name</key>
 			<string>keyword.control.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(or|and|not|like)\b</string>
-			<key>name</key>
-			<string>keyword.operator.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(sysdate|%(isopen|found|notfound|rowcount)|commit|rollback|sqlerrm|substr|cast|decode|length|lower|upper|coalesce)\b</string>
-			<key>name</key>
-			<string>support.function.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(avg|count|sum|max|min|nvl|trim|to_date|to_char|lpad|ltrim|rpad|rtrim|trunc|to_number|regexp_split_to_array|regexp_replace)\b</string>
-			<key>name</key>
-			<string>support.function.builtin.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(sql|sqlcode)\b</string>
-			<key>name</key>
-			<string>variable.language.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(p(i|o|io)_[-a-z0-9_]+)\b</string>
-			<key>name</key>
-			<string>variable.parameter.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(l_[-a-z0-9_]+)\b</string>
-			<key>name</key>
-			<string>variable.other.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(immutable|volatile|stable|serial|primary|key|references|comment|column|schema|authorization|get|diagnostics|returning|drop|all|raise|notice|warning|exception|external|security|definer|language|grant|execute|on|to|function|procedure|returns|end|then|deterministic|exception|when|others|subtype|constant|range|binary_integer|declare|begin|in|out|is|as|exit|open|fetch|into|close|type|rowtype|default|\.(extend|count|first|last|next|nextval|currval)|cost|alter|owner)\b</string>
-			<key>name</key>
-			<string>keyword.other.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(select|perform|from|where|order\s+by|group\s+by|asc|desc|update|set|insert|into|values|delete|from|distinct|union|having|limit|table|of|prepare|(inner|left|outer) join)\b</string>
-			<key>name</key>
-			<string>keyword.other.sql.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>[$][0-9]+</string>
-			<key>name</key>
-			<string>storage.type.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(dbms_lock|dbms_output)\b</string>
-			<key>name</key>
-			<string>support.class.eol</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?i)\b(put_line)\b</string>
-			<key>name</key>
-			<string>support.function.eol</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -219,13 +72,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(number|integer|bigint|varchar2|varchar|boolean|date|setof|record|query|numeric|void|character varying|text|([-a-z0-9_.]+%(row)?type))\b</string>
+			<string>(?i)\b(String|Boolean|Integer|Real|Any|Map|Collection|Bag|Sequence|Set|OrderedSet|Native|List|Tuple|ConcurrentSet|ConcurrentBag|ConcurrentMap|EolSelf|EolSelfContentType|EolSelfExpressionType|EolSelfCollectionType)\b</string>
 			<key>name</key>
 			<string>storage.type.eol</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.plpgsql.eol</string>
+	<string>source.epsilon.eol</string>
 	<key>uuid</key>
 	<string>28DCE4DD-F5E1-4ED3-8847-64DA6B1F9164</string>
 </dict>

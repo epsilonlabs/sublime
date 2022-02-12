@@ -16,7 +16,7 @@ rule Project2Project
 rule Task2Deliverable
     transform t : Source!Task
     to d : Target!Deliverable {
-
+    
     d.title = t.title + " Report";
     d.due = t.start + t.duration;
 
