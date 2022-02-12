@@ -1,1 +1,1 @@
- zip packages/eclipse-epsilon.sublime-package *.tmlanguage
+ zip packages/Epsilon.sublime-package *.tmlanguage
