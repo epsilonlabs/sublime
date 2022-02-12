@@ -16,13 +16,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(transform|rule|guard|pre|post|target|extends|parameters|template|overwrite|protectRegions|merge|append|patch)\b</string>
+			<string>\b(transform|rule|guard|pre|post|target|extends|parameters|template|overwrite|protectRegions|merge|append|patch)\b</string>
 			<key>name</key>
 			<string>keyword.control.egx</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(generated)\b</string>
+			<string>\b(generated)\b</string>
 			<key>name</key>
 			<string>constant.language.egx</string>
 		</dict>

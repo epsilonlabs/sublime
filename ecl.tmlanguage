@@ -16,13 +16,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(match|auto|do|compare|guard|pre|post|with|extends|rule|abstract)\b</string>
+			<string>\b(match|auto|do|compare|guard|pre|post|with|extends|rule|abstract)\b</string>
 			<key>name</key>
 			<string>keyword.control.ecl</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(matchTrace|autoCompare|matchInfo)\b</string>
+			<string>\b(matchTrace|autoCompare|matchInfo)\b</string>
 			<key>name</key>
 			<string>constant.language.ecl</string>
 		</dict>

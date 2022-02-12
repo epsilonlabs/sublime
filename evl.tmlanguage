@@ -16,13 +16,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(context|constraint|guard|pre|post|assumes|critique|message|title|do|check|fix|typeOf|kindOf|high|medium|low)\b</string>
+			<string>\b(context|constraint|guard|pre|post|assumes|critique|message|title|do|check|fix|typeOf|kindOf|high|medium|low)\b</string>
 			<key>name</key>
 			<string>keyword.control.evl</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(constraintTrace|extras)\b</string>
+			<string>\b(constraintTrace|extras)\b</string>
 			<key>name</key>
 			<string>constant.language.evl</string>
 		</dict>

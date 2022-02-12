@@ -16,13 +16,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(merge|mid|with|into)\b</string>
+			<string>\b(merge|mid|with|into)\b</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(matchTrace|mergeTrace)\b</string>
+			<string>\b(matchTrace|mergeTrace)\b</string>
 			<key>name</key>
 			<string>constant.language.eml</string>
 		</dict>

@@ -17,7 +17,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(pre|post|pattern|match|guard|do|onmatch|nomatch|from|no|optional|active)\b</string>
+			<string>\b(pre|post|pattern|match|guard|do|onmatch|nomatch|from|no|optional|active)\b</string>
 			<key>name</key>
 			<string>keyword.control.evl</string>
 		</dict>

@@ -16,13 +16,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(delete|retype|to|migrate|when|ignoring|package|pre|post)\b</string>
+			<string>\b(delete|retype|to|migrate|when|ignoring|package|pre|post)\b</string>
 			<key>name</key>
 			<string>keyword.control.flock</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(original|migrated)\b</string>
+			<string>\b(original|migrated)\b</string>
 			<key>name</key>
 			<string>constant.language.flock</string>
 		</dict>

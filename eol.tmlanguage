@@ -32,7 +32,7 @@
 		</dict-->
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(true|false|self|loopCount|hasMore)\b</string>
+			<string>\b(true|false|self|loopCount|hasMore)\b</string>
 			<key>name</key>
 			<string>constant.language.eol</string>
 		</dict>
@@ -44,7 +44,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(import|driver|alias|if|switch|case|default|operation|function|new|else|for|var|return|async|break|breakAll|and|or|not|xor|implies|ext|in|continue|while|throw|delete|transaction|abort|model|group|as)\b</string>
+			<string>\b(import|driver|alias|if|switch|case|default|operation|function|new|else|for|var|return|async|break|breakAll|and|or|not|xor|implies|ext|in|continue|while|throw|delete|transaction|abort|model|group|as)\b</string>
 			<key>name</key>
 			<string>keyword.control.eol</string>
 		</dict>
@@ -56,6 +56,14 @@
 			<key>name</key>
 			<string>string.quoted.single.eol</string>
 		</dict>
+		<!--dict>
+			<key>begin</key>
+			<string>`</string>
+			<key>end</key>
+			<string>`</string>
+			<key>name</key>
+			<string>entity.name</string>
+		</dict-->
 		<dict>
 			<key>begin</key>
 			<string>"</string>
@@ -66,7 +74,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(String|Boolean|Integer|Real|Any|Map|Collection|Bag|Sequence|Set|OrderedSet|Native|List|Tuple|ConcurrentSet|ConcurrentBag|ConcurrentMap|EolSelf|EolSelfContentType|EolSelfExpressionType|EolSelfCollectionType)\b</string>
+			<string>\b(String|Boolean|Integer|Real|Any|Map|Collection|Bag|Sequence|Set|OrderedSet|Native|List|Tuple|ConcurrentSet|ConcurrentBag|ConcurrentMap|EolSelf|EolSelfContentType|EolSelfExpressionType|EolSelfCollectionType)\b</string>
 			<key>name</key>
 			<string>storage.type.eol</string>
 		</dict>
