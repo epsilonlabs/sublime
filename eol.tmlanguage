@@ -6,12 +6,6 @@
 	<array>
 		<string>eol</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>(?i)^\s*(for|if|loop)\b</string>
-	<key>foldingStopMarker</key>
-	<string>(?i)^\s*(end)\b</string>
-	<key>keyEquivalent</key>
-	<string>^~S</string>
 	<key>name</key>
 	<string>EOL</string>
 	<key>patterns</key>

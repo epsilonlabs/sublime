@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>etl</string>
+		<string>egx</string>
 	</array>
 	<key>name</key>
-	<string>ETL</string>
+	<string>EGX</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -16,20 +16,20 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(transform|auto|guard|pre|post|to|extends|rule|abstract)\b</string>
+			<string>(?i)\b(transform|rule|guard|pre|post|target|extends|parameters|template|overwrite|protectRegions|merge|append|patch)\b</string>
 			<key>name</key>
-			<string>keyword.control.etl</string>
+			<string>keyword.control.egx</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(transTrace)\b</string>
+			<string>(?i)\b(generated)\b</string>
 			<key>name</key>
-			<string>constant.language.etl</string>
+			<string>constant.language.egx</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.epsilon.etl</string>
+	<string>source.epsilon.egx</string>
 	<key>uuid</key>
-	<string>28DCE4DD-F5E1-4ED3-8847-64DA6B1F9165</string>
+	<string>28DCE4DD-F5E1-4ED3-8847-64DA6B1F9167</string>
 </dict>
 </plist>

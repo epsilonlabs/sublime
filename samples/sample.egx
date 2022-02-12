@@ -1,0 +1,41 @@
+rule Teams2HTML {
+
+	template : "teams.egl"
+
+	target : "../reports/teams.html"
+	
+}
+
+rule Teams2Websites {
+
+	template : "websites.egl"
+
+	target : "../reports/websites.html"
+	
+}
+
+rule Teams2Selections {
+
+	template : "selections.egl"
+
+	target : "../reports/selections.txt"
+	
+}
+
+rule Teams2Emails {
+
+	template : "emails.egl"
+
+	target : "../reports/emails.html"
+	
+}
+
+rule PeerAssessment1 {
+	
+	template : "peer-assessment.egl"
+	
+	parameters: Map{"peerAssessments" = PeerAssessment1.all}
+	
+	target : "../reports/peer-assessment1.html"
+	
+}
