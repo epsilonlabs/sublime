@@ -24,6 +24,12 @@
 			<key>name</key>
 			<string>comment.line.double-slash.eol</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>@.*$</string>
+			<key>name</key>
+			<string>comment.line.annotation</string>
+		</dict>		
 		<!--dict>
 			<key>match</key>
 			<string>[!&lt;&gt;:]?=|&lt;&gt;|&lt;|&gt;|\+|(?&lt;!\.)\*|-|(?&lt;!^)/|@@|\|\|</string>
@@ -71,6 +77,14 @@
 			<string>"</string>
 			<key>name</key>
 			<string>string.quoted.double.eol</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>`</string>
+			<key>end</key>
+			<string>`</string>
+			<key>name</key>
+			<string>meta.other.eol</string>
 		</dict>
 		<dict>
 			<key>match</key>
