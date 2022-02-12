@@ -1,0 +1,9 @@
+rule Note2Coins
+	transform s : Source!Note
+	to t : Sequence {
+    
+    for (i in 1.`to`(s.value)) {
+        var coin : new Target!Coin;
+        coin.value = 1;
+    }
+}
