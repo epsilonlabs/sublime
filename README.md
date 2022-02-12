@@ -2,7 +2,7 @@
 
 Package that extends the [Sublime text editor](https://www.sublimetext.com/) with support for syntax highlighting [Epsilon](https://eclipse.org/epsilon) programs, [Flexmi ](https://eclipse.org/epsilon/doc/flexmi) models and [Emfatic](https://eclipse.org/emfatic) metamodels.
 
-![Imgur](https://i.imgur.com/mzejJMu.png)
+![Imgur](https://i.imgur.com/LdiBu6w.png)
 
 ## Installation
 
