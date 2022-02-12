@@ -62,14 +62,6 @@
 			<key>name</key>
 			<string>string.quoted.single.eol</string>
 		</dict>
-		<!--dict>
-			<key>begin</key>
-			<string>`</string>
-			<key>end</key>
-			<string>`</string>
-			<key>name</key>
-			<string>entity.name</string>
-		</dict-->
 		<dict>
 			<key>begin</key>
 			<string>"</string>
