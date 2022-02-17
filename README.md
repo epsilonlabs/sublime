@@ -6,4 +6,4 @@ Package that extends the [Sublime text editor](https://www.sublimetext.com/) wit
 
 ## Installation
 
-To install the package, download a copy of `Epsilon.sublime-package` from the [Releases](releases) page, place it in the `Installed Packages` folder of your Sublime installation and restart Sublime.
+To install the package, download a copy of `Epsilon.sublime-package` from the [Releases](https://github.com/epsilonlabs/sublime/releases) page, place it in the `Installed Packages` folder of your Sublime installation and restart Sublime.
