@@ -11,6 +11,12 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+	            <key>match</key>
+	            <string>@\w*(?=\()</string>
+	            <key>name</key>
+	            <string>meta.tag.emfatic</string>
+       	 	</dict>
+		<dict>
 			<key>begin</key>
 			<string>/\*</string>
 			<key>end</key>
