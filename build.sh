@@ -1,2 +1,2 @@
-zip packages/Epsilon.sublime-package tmlanguage/*.tmlanguage
+zip -FS packages/Epsilon.sublime-package tmlanguage/*.tmLanguage
 # cp -f packages/Epsilon.sublime-package /Users/dk135/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
